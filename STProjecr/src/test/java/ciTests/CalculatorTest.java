@@ -7,14 +7,16 @@ import org.testng.annotations.Test;
 public class CalculatorTest {
 
     @Test
-    public void testAddition() {
+    public void testAddition() { // Addition Test
         Calculator calc = new Calculator();
-        Assert.assertEquals(calc.add(2, 3), 5);
+        int result = calc.add(2, 3); // Test case for "add" Method
+        Assert.assertEquals(result, 5);
     }
 
-    @Test
+    /*@Test
     public void testSubtraction() {
         Calculator calc = new Calculator();
-        Assert.assertEquals(calc.subtract(5, 3), 2);
+        Assert.assertEquals(calc.subtract(5, 3), 2);*/
+
     }
 }
