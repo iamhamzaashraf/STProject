@@ -1,6 +1,5 @@
 package ciTests;
 
-import calculator.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
