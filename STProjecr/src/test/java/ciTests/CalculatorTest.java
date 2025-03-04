@@ -29,4 +29,10 @@ public class CalculatorTest {
     public void testSubtraction() {
         Assert.assertEquals(calc.subtract(5, 3), 2);
     }
+
+    @Test
+    public void testMultiply() {
+        Assert.assertEquals(calc.multiply(4, 3), 12);
+    }
+
 }

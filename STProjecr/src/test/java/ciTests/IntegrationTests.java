@@ -30,8 +30,8 @@ public class IntegrationTests {
     @Test
     public void testSequentialOperations() {
         int result = calc.add(2, 2);
-        result = calc.add(result, 6);
+        result = calc.multiply(result, 3);
         result = calc.subtract(result, 3);
-        Assert.assertEquals(result, 7);
+        Assert.assertEquals(result, 9);
     }
 }
