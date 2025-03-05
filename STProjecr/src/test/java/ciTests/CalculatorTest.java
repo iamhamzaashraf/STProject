@@ -39,6 +39,5 @@ public class CalculatorTest {
     public void testDivision() {
         Assert.assertEquals(calc.divide(10, 2), 5);
     }
-    // This is the Test Message
 
 }
