@@ -35,4 +35,10 @@ public class CalculatorTest {
         Assert.assertEquals(calc.multiply(4, 3), 12);
     }
 
+    @Test
+    public void testDivision() {
+        Assert.assertEquals(calc.divide(10, 2), 5);
+    }
+    // This is the Test Message
+
 }
