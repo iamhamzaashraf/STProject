@@ -16,5 +16,4 @@ public class Calculator {
         }
         return a / b;
 }
-// Update username check
 }
