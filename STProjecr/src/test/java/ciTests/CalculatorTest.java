@@ -42,11 +42,12 @@ public class CalculatorTest {
         Assert.assertEquals(calc.divide(10, 2), 5);
     }
 
+    @Test
     // Unit Test to test addition with zero
     public void testAdditionWithZero() {
         Assert.assertEquals(calc.add(0, 5), 5);
     }
-
+    @Test
     // Unit Test for subtration with negative
     public void testSubtractionWithNegative() {
         Assert.assertEquals(calc.subtract(3, -2), 5);
