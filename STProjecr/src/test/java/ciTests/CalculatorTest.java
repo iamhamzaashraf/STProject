@@ -47,4 +47,9 @@ public class CalculatorTest {
         Assert.assertEquals(calc.add(0, 5), 5);
     }
 
+    // Unit Test for subtration with negative
+    public void testSubtractionWithNegative() {
+        Assert.assertEquals(calc.subtract(3, -2), 5);
+    }
+
 }
