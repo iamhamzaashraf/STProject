@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class IntegrationTests {
 
     private Calculator calc;
-Wha
+
     @BeforeMethod
     public void setUp() {
         calc = new Calculator();
