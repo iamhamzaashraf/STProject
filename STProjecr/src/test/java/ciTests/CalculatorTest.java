@@ -25,4 +25,9 @@ public class CalculatorTest extends BaseTest {
         Assert.assertEquals(calc.divide(10, 2), 5); // Test simple division
     }
 
+    @Test
+    public void testLargeNumberAddition() {
+        Assert.assertEquals(calc.add(1000000, 2000000), 3000000); // Test large number addition
+    }
+
 }
