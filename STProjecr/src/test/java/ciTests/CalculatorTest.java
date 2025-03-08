@@ -1,9 +1,6 @@
 package ciTests;
 
-import calculator.Calculator;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class CalculatorTest extends BaseTest {
@@ -16,6 +13,11 @@ public class CalculatorTest extends BaseTest {
     @Test
     public void testSubtraction() {
         Assert.assertEquals(calc.subtract(5, 3), 2); // Test simple subtraction
+    }
+
+    @Test
+    public void testMultiply(){
+        Assert.assertEquals(calc.multiply(4,3),12); // Test simple Multiplication
     }
 
     @Test
