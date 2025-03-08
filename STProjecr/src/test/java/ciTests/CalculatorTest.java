@@ -26,6 +26,12 @@ public class CalculatorTest extends BaseTest {
     }
 
     @Test
+    public void testZeroDivision() {
+        Assert.expectThrows(ArithmeticException.class, () -> calc.divide(10, 0)); // Test division by zero
+    }
+
+
+    @Test
     public void testLargeNumberAddition() {
         Assert.assertEquals(calc.add(1000000, 2000000), 3000000); // Test large number addition
     }
