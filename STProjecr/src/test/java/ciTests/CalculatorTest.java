@@ -41,4 +41,8 @@ public class CalculatorTest extends BaseTest {
         Assert.assertEquals(calc.add(-5, -3), -8); // Test adding negative numbers
     }
 
+    @Test
+    public void testBoundaryValues() {
+        Assert.assertEquals(calc.add(Integer.MAX_VALUE, 0), Integer.MAX_VALUE); // Test boundary values
+    }
 }
