@@ -30,4 +30,9 @@ public class CalculatorTest extends BaseTest {
         Assert.assertEquals(calc.add(1000000, 2000000), 3000000); // Test large number addition
     }
 
+    @Test
+    public void testNegativeAddition() {
+        Assert.assertEquals(calc.add(-5, -3), -8); // Test adding negative numbers
+    }
+
 }
