@@ -27,5 +27,10 @@ public class IntegrationTests extends BaseTest {
         Assert.assertEquals(result, 10); // Verify the final result
     }
 
+    @Test
+    public void testComplexOperation() {
+        int result = calc.add(calc.multiply(3, 4), calc.subtract(10, 5)); // Complex arithmetic
+        Assert.assertEquals(result, 17); // Verify the result
+    }
 
 }
