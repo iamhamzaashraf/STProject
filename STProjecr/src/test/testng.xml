@@ -3,6 +3,7 @@
     <test name="Calculator Tests">
         <classes>
             <class name="ciTests.CalculatorTest"/>
+            <class name="ciTests.IntegrationTests"/>
         </classes>
     </test>
 </suite>
