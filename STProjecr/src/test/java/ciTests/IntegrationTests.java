@@ -20,5 +20,12 @@ public class IntegrationTests extends BaseTest {
         Assert.assertEquals(result, 7); // Verify the final result
     }
 
+    @Test
+    public void testChainedMultiplicationAndDivision() {
+        int product = calc.multiply(5, 4); // Multiply two numbers
+        int result = calc.divide(product, 2); // Divide the product
+        Assert.assertEquals(result, 10); // Verify the final result
+    }
+
 
 }
