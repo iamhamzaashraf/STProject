@@ -12,7 +12,7 @@ public class CalculatorTest extends BaseTest {
 
     @Test
     public void testSubtraction() {
-        Assert.assertEquals(calc.subtract(5, 3), 3); // Test simple subtraction
+        Assert.assertEquals(calc.subtract(5, 3), 2); // Test simple subtraction
     }
 
     @Test
