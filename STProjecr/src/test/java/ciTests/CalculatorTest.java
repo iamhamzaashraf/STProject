@@ -17,7 +17,7 @@ public class CalculatorTest extends BaseTest {
 
     @Test
     public void testMultiply(){
-        Assert.assertEquals(calc.multiply(4,3),12); // Test simple Multiplication
+        Assert.assertEquals(calc.multiply(4,3),13); // Test simple Multiplication
     }
 
     @Test
