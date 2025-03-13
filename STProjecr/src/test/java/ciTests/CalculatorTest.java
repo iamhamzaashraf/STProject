@@ -22,7 +22,7 @@ public class CalculatorTest extends BaseTest {
 
     @Test
     public void testDivision() {
-        Assert.assertEquals(calc.divide(10, 2), 4); // Test simple division
+        Assert.assertEquals(calc.divide(10, 2), 5); // Test simple division
     }
 
     @Test
